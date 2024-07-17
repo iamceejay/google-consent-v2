@@ -1,0 +1,47 @@
+{
+  "display": {
+    "mode": "bar"
+  },
+  "consent_types": [
+    {
+      "name": "analytics_storage",
+      "title": "Analytics storage",
+      "description": "Enables storage, such as cookies, related to analytics (for example, visit duration)",
+      "default": "denied"
+    },
+    {
+      "name": "ad_storage",
+      "title": "Ads storage",
+      "description": "Enables storage, such as cookies, related to advertising [link](https://www.google.com)",
+      "default": "denied"
+    },
+    {
+      "name": "ad_user_data",
+      "title": "User Data",
+      "description": "Sets consent for sending user data to Google for online advertising purposes.",
+      "default": "denied"
+    },
+    {
+      "name": "ad_personalization",
+      "title": "Personalization",
+      "description": "Sets consent for personalized advertising.",
+      "default": "denied"
+    }
+  ],
+  "settings": {
+    "title": "Cookies Settings",
+    "description": "In order to provide you with best experience we use various...",
+    "buttons": {
+      "save": "Save preferences",
+      "close": "Close"
+    }
+  },
+  "modal": {
+    "title": "Cookies",
+    "description": "We are using various cookies files. Learn more in our [privacy policy](#) and make your choice.",
+    "buttons": {
+      "accept": "Accept",
+      "settings": "Settings"
+    }
+  }
+}

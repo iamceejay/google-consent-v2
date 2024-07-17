@@ -92,7 +92,7 @@
 }
 
 #consent-banner-settings ul li {
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
 }
 
@@ -101,11 +101,13 @@
 }
 
 .consent-banner-button:hover {
-  color: rgba(231, 78, 30, .85);
-  border-color: rgba(231, 78, 30, .85);
+  color: rgba(231, 78, 30, 0.85);
+  border-color: rgba(231, 78, 30, 0.85);
 }
 
-#consent-banner-settings .consent-banner-settings-buttons .consent-banner-button {
+#consent-banner-settings
+  .consent-banner-settings-buttons
+  .consent-banner-button {
   flex: 1;
 }
 
@@ -114,7 +116,8 @@
   font-weight: bold;
 }
 
-#consent-banner-settings, #consent-banner-modal {
+#consent-banner-settings,
+#consent-banner-modal {
   border-radius: 6px;
 }
 
@@ -138,7 +141,19 @@
   overflow-x: hidden;
 }
 
-@media (max-width:576px) {
+#floating-settings-button {
+  background-color: rgb(231, 78, 30);
+}
+
+#floating-settings-button:hover {
+  transform: scale(1.2);
+}
+
+#floating-settings-button svg {
+  fill: #ffffff;
+}
+
+@media (max-width: 576px) {
   #consent-banner-settings > div > form div:nth-child(2) {
     max-height: none;
   }
@@ -178,7 +193,9 @@
   #consent-banner-modal .consent-banner-modal-buttons {
     margin: 0 !important;
   }
-  #consent-banner-settings .consent-banner-settings-buttons .consent-banner-button {
+  #consent-banner-settings
+    .consent-banner-settings-buttons
+    .consent-banner-button {
     margin: 0;
     display: block;
     margin-bottom: 10px;
@@ -189,7 +206,7 @@
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   #consent-banner-modal .consent-banner-modal-wrapper p {
     margin-bottom: 10px;
   }
